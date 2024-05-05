@@ -41,10 +41,13 @@ e. Stereo audio amplifier and Speaker: Adafruit: AGC - TPA2016 and Speaker: Adaf
 
 The amplifier TPA2016 is powered by 5V (booster) and is integrated on the PCB. It takes in decoded audio files from DAC and sends over to the speaker unit. It is successfully implemented in I2C and manages to process the audio files. 
 
-However, it was not eventually used in the device because of the limitation of memory size of the MCU. The work flow of the speaker system is as follows: SD card(with audio file) -> MCU -> DAC
+However, it was not eventually used in the device because of the limitation of memory size of the MCU. The work flow of the speaker system is as follows: SD card(with audio file) -> MCU -> DAC-> Amplifier -> Speaker. We stored the audio file (WAV file) in the SD card. MCU reads from SD card in chunks, while sending read chunk to DAC concurrently. Then DAC would forward decoded information to Amplifier and would then drive the speaker. Everything was successfully implemented until we noticed a an issue with reading from SD card. It takes a lot longer to read from SD card than all the rest of the steps. The result of that is we never able to hear a completed work/sentence, instead syllable is being played followed by a longer period of white noise. 
 
-
-Everything were implemented as the original plan except the implementation of Speaker. 
+A few limitations that stopped us from using other approaches:
+1. limited memory space: we tried to read all of the WAV file into a buffer but have failed to do so due to the limit in size
+2. We tried to read from SD card with larger size chunks, hoping it would mitigate the blank periods between each syllable. Unfortunately with the memory size limitation, even if we read 2048 samples a time(2 bytes per sample), the blank periods is still significant.
+   
+We reviewed the issue with logic analyzer, the behavior mentioned above is proved by a waveform corresponding to the audio message(0.05ms) followed by a period of blank signal(0.1ms), then repeat. 
 
 
 
