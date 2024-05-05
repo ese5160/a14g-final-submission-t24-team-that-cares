@@ -52,3 +52,14 @@ We reviewed the issue with logic analyzer, the behavior mentioned above is prove
 
 
 ## 4. Project Photos & Screenshots
+
+Your final project, including any casework or interfacing elements that make up the full project (3D prints, screens, buttons, etc)
+The standalone PCBA, top
+The standalone PCBA, bottom
+Thermal camera images while the board is running under load (you may use your Board Bringup Thermal image here!)
+The Altium Board design in 2D view (screenshot)
+The Altium Board design in 3D view (screenshot)
+Node-RED dashboard (screenshot)
+Node-RED backend (screenshot)
+Block diagram of your system (You may need to update this to reflect changes throughout the semester.)
+
