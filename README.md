@@ -29,10 +29,12 @@ Our motivation for this project comes from our concern for visually impaired ind
 ### Prototype Learnings
 
 · What lessons did you learn by building and testing this prototype?
+
 Hardware: Learned multi-layer PCB design. Application of Jumpers and Test Points. Buck, Booster circuits, and power regulation circuits.
 Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT design, use of FreeRTOS, and DAC utilization.
 
 · If you had to build this device again, what would you do differently?
+
 We might consider adding a temperature and humidity sensor, attempting to utilize the built-in free fall detection feature of the accelerometer, 
 adding more buttons to toggle functions (such as temporarily disabling the distance sensor and only using the accelerometer), attempting once
 again to replace the buzzer with DAC audio output, and processing more data in the cloud, such as readings from the distance sensor.
