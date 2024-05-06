@@ -57,6 +57,7 @@ Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT
 https://github.com/ese5160/a12g-firmware-drivers-t24-team-that-cares.git
 
 #### Final PCBA
+https://upenn-eselabs.365.altium.com/designs/AB685EF0-E911-4FC0-888C-18EAAA2C1136
 
 ## 3. Hardware & Software Requirements
 
