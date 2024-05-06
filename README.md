@@ -30,15 +30,13 @@ Our motivation for this project comes from our concern for visually impaired ind
 
 · What lessons did you learn by building and testing this prototype?
 
-
+We learned how to disconnect jumpers and test the outputs of the buck and booster circuits. We also gained knowledge on how to find
+communication protocols for different sensors from their datasheets. Understanding the importance and necessity of jumpers and test points was also acquired.
 
 · If you had to build this device again, what would you do differently?
 
 We might consider abandoning the 5V booster circuit, as all sensors can operate stably under a 3.3V voltage. Some jumpers, especially
 those input/output jumpers for power regulators and buck circuit, will be adjusted to default to the open circuit (not soldered).
-
-
-
 
 ### Next Steps
 
