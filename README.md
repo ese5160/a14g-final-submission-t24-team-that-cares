@@ -21,6 +21,7 @@ Our motivation for this project comes from our concern for visually impaired ind
 
 ### Device Functionality
 
+![alt text](<BlockDiagram.png>)
 
 ### Challenges
 
