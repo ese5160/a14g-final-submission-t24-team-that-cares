@@ -54,6 +54,7 @@ Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT
 #### Node-RED instance
 
 #### A12G code repository
+https://github.com/ese5160/a12g-firmware-drivers-t24-team-that-cares.git
 
 #### Final PCBA
 
