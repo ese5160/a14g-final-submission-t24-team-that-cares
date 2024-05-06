@@ -49,6 +49,14 @@ again to replace the buzzer with DAC audio output, and processing more data in t
 Hardware: Learned multi-layer PCB design. Application of Jumpers and Test Points. Buck, Booster circuits, and power regulation circuits.
 Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT design, use of FreeRTOS, and DAC utilization.
 
+### Project Links
+
+#### Node-RED instance
+
+#### A12G code repository
+
+#### Final PCBA
+
 ## 3. Hardware & Software Requirements
 
 ### Hardware Requirements Evaluation:
