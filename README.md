@@ -68,6 +68,10 @@ Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT
 
 A screenshot of our node red setup is attached at the end
 
+The json file from node red can be found at the following link:
+
+https://github.com/ese5160/a14g-final-submission-t24-team-that-cares/blob/main/team24.json
+
 http://20.242.125.234:1880
 
 #### A12G code repository
