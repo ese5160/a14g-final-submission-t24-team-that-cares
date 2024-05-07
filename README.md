@@ -7,6 +7,10 @@
     * Github Repository URL: https://github.com/ese5160/a14g-final-submission-t24-team-that-cares/tree/main
     * Description of test hardware: Smart Hat for people with disabilities
 
+Published website page link:
+
+https://github.com/ese5160/a14g-final-submission-t24-team-that-cares/blob/main/team24.json
+
 ## 1. Video Presentation
 
 Video is available at the following link:
