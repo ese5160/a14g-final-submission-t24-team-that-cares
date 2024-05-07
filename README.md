@@ -129,15 +129,15 @@ Your final project, including any casework or interfacing elements that make up 
 
 2. PCBA standalone:
 
-   ![alt text](<pcb1.png>)
+   ![alt text](<pcb1.jpg>)
    
-   ![alt text](<pcb2.png>)
+   ![alt text](<pcb2.jpg>)
    
-   ![alt text](<pcb3.png>)
+   ![alt text](<pcb3.jpg>)
 
 3. Thermo image of PCB under load:
 
-   ![alt text](<thermo.png>)
+   ![alt text](<thermo.jpg>)
 
 4. Altium screenshots:
 
