@@ -12,7 +12,7 @@
 ## 2. Project Summary
 
 ### Device Description
-The smart hat device aims to enhance the safety for people with disabilities especially those visually impaired. It utilizes ultrasonic distance sensors to help users detect and avoid obstacles in their environment, and an accelerometer to detect falls by analyzing movements in three dimensions.
+The smart hat device aims to enhance the safety for people with disabilities especially those visually impaired. It utilizes ultrasonic distance sensors to help users detect and avoid adjacent pedestrians and obstacles, and an accelerometer to detect free-falls by analyzing acceleration and tile in three dimensions.
 
 The device utilizes the Internet to enhance safety features. When a fall is detected, it sends the relevant data to the cloud. This data can be used for real-time monitoring and prompt emergency responses. Additionally, the device automatically sends an emergency notification to pre-set contacts via email, ensuring that help can be quickly dispatched if the wearer is in distress. 
 
@@ -21,10 +21,19 @@ Our motivation for this project comes from our concern for visually impaired ind
 
 ### Device Functionality
 
+Two sensors, as mentioned, ADXL345 and US100 are communicating to MCU with I2C and UART respectively. The actuatior buzzer is achieved with GPIO. With the help from WINC1500, we have internet conncetion capcabilities to enable real-time data display for accelerometer and over-the-air firmware update.
+
 ![alt text](<BlockDiagram.png>)
 
 ### Challenges
 
+1. Firmware: I2C communication for ADXL345
+
+   We initially struggled with the I2C communication between the ADXL345 and the MCU. After debugging with logic analyzer and code scrudinize,  we realized that the message structure for I2C is quite different between the HAL level I2C package enclosed in the Microchip code package and the ADXL345 requirement. Thus, we modified the read and write functions deep down the I2C packages and reconstructed the I2C setup/message structure.
+
+2. Hardware: Memory limitation to run amplifier (TPA2016) to Speaker (1314)
+
+   We successfully implemented all the codes for the amplifier and speaker, including the implementation of DAC functionalities, the implementation of the TPA2016 amplifier. But we found out that the IO speed is gating the performance of the speaker. More details can be found in section 3: Hardware and SOftware Requirements.
 
 ### Prototype Learnings
 
@@ -52,6 +61,12 @@ Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT
 ### Project Links
 
 #### Node-RED instance
+
+A screenshot of our node red setup:
+
+![alt text](<nodered.jpg>)
+
+http://20.242.125.234:1880
 
 #### A12G code repository
 https://github.com/ese5160/a12g-firmware-drivers-t24-team-that-cares.git
