@@ -120,18 +120,20 @@ We reviewed the issue with logic analyzer, the behavior mentioned above is prove
 
 Your final project, including any casework or interfacing elements that make up the full project (3D prints, screens, buttons, etc)
 1. Project photos:
+
+   Completed project:
+   
+   ![alt text](<hat1.jpg>)
+   
+   Demo wearing hat:
+
+   ![alt text](<wearhat.jpg>)
+
+   Break-down pictures:
    
    ![alt text](<act1.jpg>)
 
    ![alt text](<act2.jpg>)
-
-   Device implemented practicallly (device circuitry embedded in hat):
-
-   ![alt text](<hat1.jpg>)
-
-   Demo wearing hat:
-
-   ![alt text](<wearhat.jpg>)
 
 
 3. PCBA standalone:
