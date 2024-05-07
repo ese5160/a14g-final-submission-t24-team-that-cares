@@ -9,7 +9,7 @@
 
 Published website page link:
 
-https://github.com/ese5160/a14g-final-submission-t24-team-that-cares/blob/main/team24.json
+https://ese5160.github.io/a14g-final-submission-t24-team-that-cares/
 
 ## 1. Video Presentation
 
