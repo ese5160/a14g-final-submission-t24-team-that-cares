@@ -12,7 +12,7 @@
 ## 2. Project Summary
 
 ### Device Description
-The smart hat device is solving the problem of navigation and safety for visually impaired individuals. It uses ultrasonic distance sensors to help users detect and avoid obstacles in their environment, and an accelerometer to detect falls by analyzing movements in three dimensions.
+The smart hat device aims to enhance the safety for people with disabilities especially those visually impaired. It utilizes ultrasonic distance sensors to help users detect and avoid obstacles in their environment, and an accelerometer to detect falls by analyzing movements in three dimensions.
 
 The device utilizes the Internet to enhance safety features. When a fall is detected, it sends the relevant data to the cloud. This data can be used for real-time monitoring and prompt emergency responses. Additionally, the device automatically sends an emergency notification to pre-set contacts via email, ensuring that help can be quickly dispatched if the wearer is in distress. 
 
