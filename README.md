@@ -64,7 +64,7 @@ Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT
 
 A screenshot of our node red setup:
 
-![alt text](<nodered.jpg>)
+![alt text](<nodered.png>)
 
 http://20.242.125.234:1880
 
