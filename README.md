@@ -9,6 +9,10 @@
 
 ## 1. Video Presentation
 
+Video is available at the following link:
+
+https://youtu.be/OUcvav57-Wk?si=e9zNmfLbQJUyDDRR
+
 ## 2. Project Summary
 
 ### Device Description
