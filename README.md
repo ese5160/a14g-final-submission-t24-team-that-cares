@@ -66,9 +66,7 @@ Software: Learned I2C, UART, and SPI communication, SD card access, NODE-RED IoT
 
 #### Node-RED instance
 
-A screenshot of our node red setup:
-
-![alt text](<nodered.png>)
+A screenshot of our node red setup is attached at the end
 
 http://20.242.125.234:1880
 
@@ -127,7 +125,16 @@ Your final project, including any casework or interfacing elements that make up 
 
    ![alt text](<act2.jpg>)
 
-2. PCBA standalone:
+   Device implemented practicallly (device circuitry embedded in hat):
+
+   ![alt text](<hat1.jpg>)
+
+   Demo wearing hat:
+
+   ![alt text](<wearhat.jpg>)
+
+
+3. PCBA standalone:
 
    ![alt text](<pcb1.jpg>)
    
@@ -135,23 +142,23 @@ Your final project, including any casework or interfacing elements that make up 
    
    ![alt text](<pcb3.jpg>)
 
-3. Thermo image of PCB under load:
+4. Thermo image of PCB under load:
 
    ![alt text](<thermo.jpg>)
 
-4. Altium screenshots:
+5. Altium screenshots:
 
    ![alt text](<PCBA_2D.png>)
 
    ![alt text](<PCBA_3D.png>)
 
-5. Node red screenshots:
+6. Node red screenshots:
 
    ![alt text](<nodered.png>)
 
    ![alt text](<nodered2.png>)  
 
-6. Block diagram:
+7. Block diagram:
 
 ![alt text](<BlockDiagram.png>)
 
